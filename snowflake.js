@@ -2,10 +2,11 @@
 
 class snowflake{
     constructor(){
-       let x = random(width);
-       let y = random(-400,-400);
+        let x = random(width);
+       let y = random(0,-10);
         this.pos = createVector(x,y);
-        this.vel = createVector(random(-1,1),1);
+        this.vel = createVector(random(-2,2),2);
+        //this.vel = createVector(0)
         this.acc = createVector();
       //  this.r = getRandomSize();
         //this.terminalV = this.r;

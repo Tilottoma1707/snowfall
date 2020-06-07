@@ -9,7 +9,7 @@ let snow = [];
 //let gravity;
 
 function setup() {
-  createCanvas(800,600);
+  createCanvas(1000,1200);
   //engine = Engine.create();
 
 //gravity = createVector(0,0.03);
@@ -35,4 +35,7 @@ for(flake of snow){
     //snow.splice(i,1);
   //}
 //}
+//textSize(35)
+//fill("white");
+//print("SCROLL DOWN TO SEE THE FLAKES",400,200)
 }
